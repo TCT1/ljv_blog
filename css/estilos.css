@@ -1,0 +1,500 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #1d1d1d;
+    color: rgb(224, 224, 224);
+/*     font-family:Verdana, Geneva, Tahoma, sans-serif; */
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.nav__menu{
+    list-style-type: none;
+    background: #fff;   
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}  
+
+.header__menu{
+    top:0px;
+    position: sticky;
+}
+
+li{
+    padding: 10px;
+    padding-left: 40px;
+}
+
+.cuerpo{
+    display: flex;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+/* Pagina Principal */
+
+.titulo{
+    color:rgb(255, 247, 235);
+    font-size: 100px;
+    font-family: 'Titan One', cursive;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main__portada{
+    display: flex;
+    background-image: url("../recursos/fondo.jpg");
+    background-attachment: fixed;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Sobre Mí */
+.titulo__sobremi{
+    font-size: 80px;
+    margin-bottom: 35px;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.presentacion__sobremi{
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.seccion__sobremi{
+    color: rgb(255, 255, 255);
+    border-radius: 7px;
+    border: solid 3px rgb(137, 137, 137);
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.subtitulo__sobremi{
+    font-size: 30px;
+}
+
+.descripcion__subtituloSobremi a{
+    color: #00eaff;
+    font-weight: 900;
+}
+
+.img__seccionSobremi{
+    height: 70px;
+    width: 70px;
+}
+
+
+/* Articulos */
+.articulos__expOral{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.articulos__tecnologia{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.articulos__ajedrez{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.articulos__arte{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.articulos__titulo{
+    font-size: 70px;
+    margin-bottom: 35px;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.seccion__nombre{
+    font-size: 50px;
+    padding-left: 15px;
+}
+
+.seccion__articulo{
+    width: 375px;
+    height: 400px;
+    background-color:antiquewhite;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    color: #000;
+    border-radius: 7px;
+    text-align: center;
+    transition: all 0.25s;
+    margin-bottom: 60px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.descripcion__articulo{
+    padding: 7px;
+}
+
+.titulo__articulo{
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+
+.fecha__articulo{
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+.img__articulo{
+    width: 95%;
+    height: 50%;
+    padding-top: 5px;
+}
+
+.img__articulo--mod{
+    width: fit-content;
+    height: 50%;
+    padding-top: 5px;
+}
+
+/* pagina de contacto */
+form{
+    width: 550px;
+    margin:auto;
+    margin-top: 50px;
+    background: rgba(76, 76, 76, 0.4);
+    border: 5px solid rgb(151, 151, 151);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.form__titulo{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.form__item{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea{
+    min-height: 150px;
+    max-height: 150px;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.form__button{
+    background-color: rgb(35, 35, 110);
+    color: white;
+    padding: 10px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.form__button:hover{
+    cursor: pointer;
+    background-color: rgb(22, 22, 76);
+}
+
+/* galeria */
+
+.titulo__galeria{
+    font-size: 80px;
+    margin-bottom: 35px;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery{
+    width: 85%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 133px);
+    grid-auto-rows: 200px;
+    justify-content: center;
+    gap: 20px 10px;
+}
+
+.presentacion__galeria{
+    font-size: 25px;
+}
+
+.gallery__item{
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    transition: .4s ease-in-out;
+    grid-column: span 2;
+    height: 283px;
+}
+
+.gallery__item:hover{
+    filter: brightness(0.8);
+    transform: scale(1.05);
+}
+
+.gallery__item:active{
+    filter: brightness(1);
+    clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%, 0% 0%);
+    height: fit-content;
+    width: fit-content;
+    transform: scale(1.5);
+    position: center;
+    z-index: 1;
+}
+
+.gallery__item:first-of-type{
+    grid-column:  2/ span 2;
+}
+
+/* footer */
+footer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition: all .3s ease;
+}
+
+.footer__redes{
+    display: flex;
+    margin-top: 120px;
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.582);
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__redes .fab{
+    margin: 0 15px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #000;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    transition: all .3s ease;
+}
+
+.footer__redes .icon1:hover{
+    background: #3b5998;
+    transform: scale(1.2);
+}
+
+.footer__redes .icon2:hover{
+    background: #c13584;
+    transform: scale(1.2);
+}
+
+.footer__redes .icon3:hover{
+    background: #6441a5;
+    transform: scale(1.2);
+}
+
+.footer__redes .icon4:hover{
+    background: #c4302b;
+    transform: scale(1.2);
+}
+
+
+/* media queries */
+/* galeria media queries */
+@media screen and (min-width: 270px) and (max-width: 504px){
+    .gallery__item:first-of-type{
+        grid-column:  1/ span 2;
+    }
+
+    .gallery{
+        grid-auto-rows: 283px;
+    }
+}
+
+@media screen and (min-width: 505px) and (max-width: 685px){
+    .gallery__item:nth-of-type(odd){
+        grid-column: 2 / span 2;
+    }
+}
+
+@media screen and (min-width: 686px) and (max-width: 862px){
+    .gallery__item:nth-of-type(3n + 1){
+        grid-column: 2 / span 2;
+    }
+}
+
+@media screen and (min-width: 863px) and (max-width: 1038px){
+    .gallery__item:nth-of-type(4n + 1){
+        grid-column: 2 / span 2;
+    }
+}
+
+@media screen and (min-width: 1039px) and (max-width: 1215px){
+    .gallery__item:nth-of-type(5n + 1){
+        grid-column: 2 / span 2;
+    }
+}
+
+@media screen and (min-width: 1216px) and (max-width: 1391px){
+    .gallery__item:nth-of-type(6n + 1){
+        grid-column: 2 / span 2;
+    }
+}
+
+@media screen and (min-width: 1392px){
+    .gallery__item:nth-of-type(7n + 1){
+        grid-column: 2 / span 2;
+    }
+}
+
+
+
+
+/* Formulario */
+@media (max-width:480px){
+    form{
+        width: 100%;
+    }
+
+    .form__titulo{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:280px){
+    form{
+        width: 100%;
+    }
+
+    .form__titulo{
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width:549px){
+    .footer__redes{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:250px){
+    .footer__redes{
+        width: 100%;
+    }
+}
+
+
+@media (min-width:280px) and (max-width:480px){
+    p{
+        font-size: 12px;
+    }
+
+    .presentacion__sobremi{
+        font-size: 20px;
+    }
+
+    .presentacion__galeria{
+        font-size: 20px;
+    }
+
+    .articulos__titulo{
+        font-size: 50px;
+    }
+
+    .titulo__sobremi{
+        font-size: 50px;
+    }
+
+    .titulo__galeria{
+        font-size: 50px;
+    }
+
+    .seccion__nombre{
+        font-size: 25px;
+    }
+
+    .subtitulo__sobremi{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:280px) {
+    .seccion__articulo{
+        flex-direction: column;
+        width: 240px;
+        height: 340px;
+    }
+
+    .articulos__expOral{
+        justify-content: center;
+    }
+    
+    .articulos__tecnologia{
+        justify-content: center;
+    }
+    
+    .articulos__ajedrez{
+        justify-content: center;
+    }
+
+    .articulos__arte{
+        justify-content: center;
+    }
+}
