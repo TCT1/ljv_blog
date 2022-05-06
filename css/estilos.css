@@ -11,27 +11,25 @@ body{
 }
 
 .nav__menu{
-    list-style-type: none;
+/*     list-style-type: none;
     background: #fff;   
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: flex-end; */
+
+    display: grid;
+    list-style-type: none;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    justify-content: center;
+    background-color: antiquewhite;
 }  
 
-.header__menu{
-    top:0px;
-    position: sticky;
-}
-
 li{
-    padding: 10px;
-    padding-left: 40px;
+    padding: 15px;
+    padding-left: 25%;
 }
 
-.cuerpo{
-    display: flex;
-}
 
 li a{
     text-decoration: none;
@@ -407,7 +405,7 @@ footer{
 
 
 /* Formulario */
-@media (max-width:480px){
+@media (max-width:561px){
     form{
         width: 100%;
     }
@@ -447,7 +445,7 @@ footer{
     }
 
     .presentacion__sobremi{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .presentacion__galeria{
@@ -455,10 +453,6 @@ footer{
     }
 
     .articulos__titulo{
-        font-size: 50px;
-    }
-
-    .titulo__sobremi{
         font-size: 50px;
     }
 
@@ -496,5 +490,19 @@ footer{
 
     .articulos__arte{
         justify-content: center;
+    }
+}
+
+@media (max-width:829px){
+    .nav__menu{
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 50% 50%;
+    }
+}
+
+@media (max-width:400px){
+    .nav__menu{
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
     }
 }
