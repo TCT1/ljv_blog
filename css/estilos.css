@@ -182,7 +182,7 @@ p{
 }
 
 .img__articulo--mod{
-    width: auto;
+    width:fit-content;
     height: 50%;
     padding-top: 5px;
 }
