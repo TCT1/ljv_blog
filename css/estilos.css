@@ -181,12 +181,6 @@ p{
     padding-top: 5px;
 }
 
-.img__articulo--mod{
-    width:min-content;
-    height: 50%;
-    padding-top: 5px;
-}
-
 /* pagina de contacto */
 form{
     width: 550px;
