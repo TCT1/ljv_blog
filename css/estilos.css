@@ -11,13 +11,6 @@ body{
 }
 
 .nav__menu{
-/*     list-style-type: none;
-    background: #fff;   
-    padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end; */
-
     display: grid;
     list-style-type: none;
     grid-template-columns: 20% 20% 20% 20% 20%;
@@ -51,7 +44,7 @@ li a{
 
 .main__portada{
     display: flex;
-    background-image: url("../recursos/fondo.jpg");
+    background-image: url("../recursos/Logo.png");
     background-attachment: fixed;
     background-position:top;
     background-repeat: no-repeat;
