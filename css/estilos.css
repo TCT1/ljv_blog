@@ -33,7 +33,7 @@ li a{
 /* Pagina Principal */
 
 .titulo{
-    color:rgb(255, 247, 235);
+    color:rgb(0, 0, 0);
     font-size: 100px;
     font-family: 'Titan One', cursive;
     display: flex;
