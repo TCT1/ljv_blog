@@ -10,24 +10,8 @@ body{
     font-family:Arial, Helvetica, sans-serif;
 }
 
-.nav__menu{
-    display: grid;
-    list-style-type: none;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    justify-content: center;
-    background-color: antiquewhite;
-}  
-
-li{
-    padding: 15px;
-    padding-left: 25%;
-}
-
-
-li a{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-weight: 600;
+.bg-white{
+    background-color: white;
 }
 
 /* Pagina Principal */
@@ -57,6 +41,10 @@ li a{
 p{
     display: flex;
     flex-wrap: wrap;
+}
+
+.img__carrusel{
+    height: 500px;
 }
 
 /* Sobre Mí */
@@ -268,7 +256,7 @@ img{
 
 .gallery__item{
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    transition: .4s ease-in-out;
+    transition: .3s ease-in-out;
     grid-column: span 2;
     height: 283px;
 }
@@ -357,13 +345,16 @@ footer{
         grid-auto-rows: 283px;
     }
 
+    .gallery__item{
+        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+        transition-timing-function: 2s ease-out;
+    }
 
     .gallery__item:hover{
         filter: brightness(1);
         clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%, 0% 0%);
         height: fit-content;
         width: fit-content;
-        transform: scale(1.5);
         position: center;
         z-index: 1;
     }
@@ -374,12 +365,16 @@ footer{
         grid-column: 2 / span 2;
     }
 
+    .gallery__item{
+        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+        transition-timing-function: 2s ease-out;
+    }
+
     .gallery__item:hover{
         filter: brightness(1);
         clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%, 0% 0%);
         height: fit-content;
         width: fit-content;
-        transform: scale(1.5);
         position: center;
         z-index: 1;
     }
@@ -390,12 +385,16 @@ footer{
         grid-column: 2 / span 2;
     }
 
+    .gallery__item{
+        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+        transition-timing-function: 2s ease-out;
+    }
+
     .gallery__item:hover{
         filter: brightness(1);
         clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%, 0% 0%);
         height: fit-content;
         width: fit-content;
-        transform: scale(1.5);
         position: center;
         z-index: 1;
     }
