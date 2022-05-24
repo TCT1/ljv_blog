@@ -1,0 +1,54 @@
+/* Articulos */
+
+.articulos__titulo{
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+
+.articulos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+
+    &__seccion{
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 15px;
+        background-color:antiquewhite;
+        color: #000;
+        text-align: center;
+        width: 350px;
+        height: 450px;
+        border-radius: 7px;
+        text-align: center;
+        transition: all 0.25s;
+    }
+
+    &__titulo{
+        font-size: 35px;
+    }
+
+    &__fecha{
+        font-size: 12px;
+        padding-top: 20px;
+    }
+
+    &__img{
+        width: 95%;
+        height: 50%;
+        padding: 5px;
+    }
+
+    &__img--mod{
+        width: fit-content;
+        height: 50%;
+        padding-top: 5px;
+    }
+}
+
+.seccion__nombre{
+    font-size: 50px;
+    padding-left: 15px;
+}
