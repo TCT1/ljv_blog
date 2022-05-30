@@ -40,8 +40,9 @@
 
 /* Articulos */
 .articulos__titulo {
-  font-size: 30px;
-  padding-bottom: 5px; }
+  font-size: 55px;
+  padding-bottom: 2px;
+  text-align: center; }
 
 .articulos {
   display: flex;
@@ -53,14 +54,24 @@
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 15px;
-    background-color: antiquewhite;
     color: #000;
     text-align: center;
     width: 350px;
     height: 450px;
     border-radius: 7px;
     text-align: center;
-    transition: all 0.25s; }
+    transition: all 0.25s;
+    background-color: antiquewhite; }
+  .articulos__seccion--mod {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 15px;
+    color: #000;
+    width: 350px;
+    height: 450px;
+    border-radius: 7px;
+    transition: all 0.25s;
+    background-color: antiquewhite; }
   .articulos__titulo {
     font-size: 35px; }
   .articulos__fecha {
@@ -76,8 +87,13 @@
     padding-top: 5px; }
 
 .seccion__nombre {
-  font-size: 50px;
+  font-size: 30px;
   padding-left: 15px; }
+
+.better-articles, .articulos__seccion--mod {
+  text-align: center;
+  border: solid red 3px;
+  font-weight: 600; }
 
 * {
   margin: 0px;
@@ -101,30 +117,42 @@ body {
   background-color: white; }
 
 /* Pagina Principal */
-.titulo {
-  color: black;
-  font-size: 80px;
-  font-family: 'Titan One', cursive;
-  text-align: center;
-  flex-wrap: wrap;
-  margin-left: 15%;
-  margin-right: 15%; }
-
 .main__portada {
-  background-color: antiquewhite;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 100px; }
+  background-color: antiquewhite; }
 
 p {
   display: flex;
   flex-wrap: wrap; }
 
+/* Index */
+.presentacion__inicio {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  height: auto;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  align-items: center;
+  justify-content: center; }
+  .presentacion__inicio__texto {
+    color: #1d1d1d;
+    width: 50%;
+    padding-right: 15px; }
+    .presentacion__inicio__texto h2 {
+      font-size: 35px;
+      font-family: 'Titan One', cursive; }
+    .presentacion__inicio__texto h3 {
+      font-size: 20px; }
+  .presentacion__inicio__img {
+    width: 600px;
+    border: solid 7px white; }
+
 /* Sobre Mí */
 .sobremi__titulo {
   font-size: 80px;
   margin-bottom: 35px;
+  padding: 5px;
   display: flex;
   text-align: center;
   flex-wrap: wrap;
@@ -301,8 +329,6 @@ img {
     font-size: 20px; }
   .titulo__galeria {
     font-size: 50px; }
-  .seccion__nombre {
-    font-size: 25px; }
   .subtitulo__sobremi {
     font-size: 20px; } }
 
@@ -312,11 +338,15 @@ img {
     width: 240px;
     height: 340px; } }
 
-@media (max-width: 464px) {
+@media (min-width: 464px) {
   .articulos__descripcion {
     font-size: 12px; }
+  .seccion__nombre {
+    font-size: 20px; } }
+
+@media (max-width: 464px) {
   .articulos__titulo {
-    font-size: 25px; } }
+    font-size: 30px; } }
 
 @media (max-width: 829px) {
   .nav__menu {
@@ -327,3 +357,52 @@ img {
   .nav__menu {
     grid-template-columns: 50% 50%;
     grid-template-rows: 33% 33% 33%; } }
+
+/* Index */
+@media (max-width: 760px) {
+  .presentacion__inicio {
+    margin: 0 auto;
+    flex-direction: column;
+    width: 80vw;
+    height: auto;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    align-items: center;
+    justify-content: center; }
+    .presentacion__inicio__texto {
+      color: #1d1d1d;
+      width: 85%;
+      padding-bottom: 15px; }
+      .presentacion__inicio__texto h2 {
+        font-size: 30px;
+        text-align: center; }
+      .presentacion__inicio__texto h3 {
+        font-size: 15px;
+        text-align: center; }
+    .presentacion__inicio__img {
+      width: 400px;
+      border: solid 7px white; } }
+
+@media (max-width: 460px) {
+  .presentacion__inicio {
+    margin: 0 auto;
+    flex-direction: column;
+    width: 80vw;
+    height: auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    align-items: center;
+    justify-content: center; }
+    .presentacion__inicio__texto {
+      color: #1d1d1d;
+      width: 85%;
+      padding-bottom: 15px; }
+      .presentacion__inicio__texto h2 {
+        font-size: 25px;
+        text-align: center; }
+      .presentacion__inicio__texto h3 {
+        font-size: 10px;
+        text-align: center; }
+    .presentacion__inicio__img {
+      width: 250px;
+      border: solid 7px white; } }

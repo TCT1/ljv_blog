@@ -1,8 +1,9 @@
 /* Articulos */
 
 .articulos__titulo{
-    font-size: 30px;
-    padding-bottom: 5px;
+    font-size: 55px;
+    padding-bottom: 2px;
+    text-align: center;
 }
 
 .articulos{
@@ -16,7 +17,6 @@
         margin-left: 5px;
         margin-right: 5px;
         margin-top: 15px;
-        background-color:antiquewhite;
         color: #000;
         text-align: center;
         width: 350px;
@@ -24,6 +24,20 @@
         border-radius: 7px;
         text-align: center;
         transition: all 0.25s;
+        background-color: antiquewhite;
+    }
+
+    &__seccion--mod{
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 15px;
+        color: #000;
+        width: 350px;
+        height: 450px;
+        border-radius: 7px;
+        transition: all 0.25s;
+        background-color: antiquewhite;
+        @extend .better-articles
     }
 
     &__titulo{
@@ -49,6 +63,12 @@
 }
 
 .seccion__nombre{
-    font-size: 50px;
+    font-size: 30px;
     padding-left: 15px;
+}
+
+.better-articles{
+    text-align: center;
+    border: solid rgb(255, 0, 0) 3px;
+    font-weight: 600;
 }
