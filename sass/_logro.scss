@@ -1,5 +1,10 @@
 /* Articulos */
 
+.articulos__descTitulo{
+    font-size: 80px;
+    text-align: center;
+}
+
 .articulos__titulo{
     font-size: 55px;
     padding-bottom: 2px;
@@ -56,7 +61,7 @@
     }
 
     &__img--mod{
-        width: fit-content;
+        width: min-content;
         height: 50%;
         padding-top: 5px;
     }
@@ -69,6 +74,6 @@
 
 .better-articles{
     text-align: center;
-    border: solid rgb(255, 0, 0) 3px;
+    border:rgb(255, 0, 0) dashed 4px;
     font-weight: 600;
 }
