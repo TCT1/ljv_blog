@@ -1,10 +1,10 @@
 <?php
 
-$nombre = $_POST['nombre'];
-$mensaje = $_POST['messageBox'];
+$nombre = $_GET['nombre'];
+$mensaje = $_GET['messageBox'];
 
 $mensaje = "Este mensaje fue enviado por " . $nombre . ",\r\n";
-$mensaje .= "Mensaje: " . $_POST['mensaje'] . "\r\n"
+$mensaje .= "Mensaje: " . $_GET['mensaje'] . "\r\n"
 
 $para = 'leonjv08@gmail.com'
 $asunto = 'Este mail fue enviado desde LJV-Blog'
