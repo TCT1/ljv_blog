@@ -241,13 +241,13 @@ img{
 
     .galeria__main:hover{
         .gallery__item{
-            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+            clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%, 0% 0%);
         }
     }
 
     .gallery__item:hover{
         filter: brightness(1);
-        clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%, 0% 0%);
+        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
         height: fit-content;
         width: fit-content;
         transform: scale(1.5);
@@ -263,13 +263,13 @@ img{
 
     .galeria__main:hover{
         .gallery__item{
-            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+            clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%, 0% 0%);
         }
     }
 
     .gallery__item:hover{
         filter: brightness(1);
-        clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%, 0% 0%);
+        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
         height: fit-content;
         width: fit-content;
         transform: scale(1.5);
@@ -285,13 +285,13 @@ img{
 
     .galeria__main:hover{
         .gallery__item{
-            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+            clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%, 0% 0%);
         }
     }
 
     .gallery__item:hover{
         filter: brightness(1);
-        clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%, 0% 0%);
+        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
         height: fit-content;
         width: fit-content;
         transform: scale(1.5);
