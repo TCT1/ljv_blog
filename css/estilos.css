@@ -478,7 +478,7 @@ img {
     width: 750px;
     height: 300px; }
   .portafolio__img {
-    width: 50%;
+    width: 100%;
     height: auto; } }
 
 @media (max-width: 740px) {
