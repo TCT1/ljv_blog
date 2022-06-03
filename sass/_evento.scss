@@ -1,5 +1,5 @@
 /* Portafolio */
-.portafolio__mainTitulo{
+.eventosEspeciales__mainTitulo{
     color: black;
     background-color: white;
     text-align: center;
@@ -9,7 +9,7 @@
     padding: 10px;
 }
 
-.portafolio{
+.eventosEspeciales{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,13 +48,6 @@
     &__descripcion{
         justify-content: center;
         font-size: 15px;
-    }
-
-    &__link{
-        justify-content: center;
-        font-size: 15px;
-        font-weight: 700;
-        color:#00717b;
     }
 
     &__img{

@@ -2,6 +2,7 @@
 @import 'footer';
 @import 'logro';
 @import 'portafolio';
+@import 'evento';
 
 *{
     margin: 0px;
@@ -479,10 +480,37 @@ img{
     }
 
     .portafolio__img{
-        width: 95%;
-        height: 50%;
+        width: 100%;
+        height: auto;
     }
 }
+
+/* eventos especiales */
+@media(max-width:840px){
+    .eventosEspeciales__seccion{
+        width: 750px;
+        height: 300px;
+    }
+
+    .eventosEspeciales__img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media(max-width:740px){
+    .eventosEspeciales__seccion{
+        flex-direction: column;
+        width: 350px;
+        height: 550px;
+    }
+
+    .eventosEspeciales__img{
+        width: 100%;
+        height: auto;
+    }
+}
+
 
 
 @media (max-width:460px){

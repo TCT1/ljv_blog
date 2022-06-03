@@ -113,6 +113,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin-bottom: 15px;
   flex-wrap: wrap; }
   .portafolio__seccion {
@@ -127,7 +128,8 @@
     border-radius: 7px;
     transition: all 0.25s;
     background-color: antiquewhite;
-    border-radius: 7px; }
+    border-radius: 7px;
+    margin-bottom: 30px; }
   .portafolio__titulo {
     font-size: 25px;
     font-weight: 700; }
@@ -139,7 +141,59 @@
   .portafolio__descripcion {
     justify-content: center;
     font-size: 15px; }
+  .portafolio__link {
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: #00717b; }
   .portafolio__img {
+    width: 40%;
+    height: 100%;
+    align-self: flex-start; }
+
+/* Portafolio */
+.eventosEspeciales__mainTitulo {
+  color: black;
+  background-color: white;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 600;
+  margin-top: 25px;
+  padding: 10px; }
+
+.eventosEspeciales {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  flex-wrap: wrap; }
+  .eventosEspeciales__seccion {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    color: #000;
+    text-align: center;
+    justify-content: center;
+    width: 850px;
+    height: 200px;
+    border-radius: 7px;
+    transition: all 0.25s;
+    background-color: antiquewhite;
+    border-radius: 7px;
+    margin-bottom: 30px; }
+  .eventosEspeciales__titulo {
+    font-size: 25px;
+    font-weight: 700; }
+  .eventosEspeciales__texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .eventosEspeciales__descripcion {
+    justify-content: center;
+    font-size: 15px; }
+  .eventosEspeciales__img {
     width: 40%;
     height: 100%;
     align-self: flex-start; }
@@ -487,8 +541,26 @@ img {
     width: 350px;
     height: 550px; }
   .portafolio__img {
-    width: 95%;
-    height: 50%; } }
+    width: 100%;
+    height: auto; } }
+
+/* eventos especiales */
+@media (max-width: 840px) {
+  .eventosEspeciales__seccion {
+    width: 750px;
+    height: 300px; }
+  .eventosEspeciales__img {
+    width: 100%;
+    height: auto; } }
+
+@media (max-width: 740px) {
+  .eventosEspeciales__seccion {
+    flex-direction: column;
+    width: 350px;
+    height: 550px; }
+  .eventosEspeciales__img {
+    width: 100%;
+    height: auto; } }
 
 @media (max-width: 460px) {
   .presentacion__inicio {
