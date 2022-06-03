@@ -239,23 +239,20 @@ img{
         grid-auto-rows: 283px;
     }
 
-    .galeria__main:hover{
+    .galeria__main:active{
         .gallery__item{
-            clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%, 0% 0%);
-            transition: .3s ease-in-out;
             clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
         }
     }
 
     .gallery__item:hover{
         filter: brightness(1);
-        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+        clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%, 0% 0%);
         height: fit-content;
         width: fit-content;
         transform: scale(1.5);
         position: center;
         z-index: 1;
-        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     }
 }
 
@@ -264,23 +261,20 @@ img{
         grid-column: 2 / span 2;
     }
 
-    .galeria__main:hover{
+    .galeria__main:active{
         .gallery__item{
-            clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%, 0% 0%);
-            transition: .3s ease-in-out;
             clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
         }
     }
 
     .gallery__item:hover{
         filter: brightness(1);
-        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+        clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%, 0% 0%);
         height: fit-content;
         width: fit-content;
         transform: scale(1.5);
         position: center;
         z-index: 1;
-        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     }
 }
 
@@ -289,23 +283,20 @@ img{
         grid-column: 2 / span 2;
     }
 
-    .galeria__main:hover{
+    .galeria__main:active{
         .gallery__item{
-            clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%, 0% 0%);
-            transition: .3s ease-in-out;
             clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
         }
     }
 
     .gallery__item:hover{
         filter: brightness(1);
-        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+        clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%, 0% 0%);
         height: fit-content;
         width: fit-content;
         transform: scale(1.5);
         position: center;
         z-index: 1;
-        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     }
 }
 
