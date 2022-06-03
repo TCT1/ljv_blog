@@ -336,7 +336,7 @@ img {
     clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%, 0% 0%);
     height: fit-content;
     width: fit-content;
-    transform: scale(1.5);
+    transform: scale(0.8);
     position: center;
     z-index: 1; } }
 
@@ -350,7 +350,7 @@ img {
     clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%, 0% 0%);
     height: fit-content;
     width: fit-content;
-    transform: scale(1.5);
+    transform: scale(0.8);
     position: center;
     z-index: 1; } }
 
@@ -364,7 +364,7 @@ img {
     clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%, 0% 0%);
     height: fit-content;
     width: fit-content;
-    transform: scale(1.5);
+    transform: scale(0.8);
     position: center;
     z-index: 1; } }
 
