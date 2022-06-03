@@ -11,7 +11,7 @@
 
 .portafolio{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     margin-bottom: 15px;
     flex-wrap: wrap;
@@ -22,7 +22,6 @@
         margin-top: 15px;
         color: #000;
         text-align: center;
-        align-items: center;
         justify-content: center;
         width: 850px;
         height: 200px;
@@ -52,5 +51,6 @@
     &__img{
         width: 40%;
         height: 100%;
+        align-self: flex-start;
     }
 }
