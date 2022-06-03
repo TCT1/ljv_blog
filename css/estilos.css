@@ -338,7 +338,8 @@ img {
     width: fit-content;
     transform: scale(1.5);
     position: center;
-    z-index: 1; } }
+    z-index: 1;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); } }
 
 @media screen and (min-width: 505px) and (max-width: 685px) {
   .gallery__item:nth-of-type(odd) {
@@ -352,7 +353,8 @@ img {
     width: fit-content;
     transform: scale(1.5);
     position: center;
-    z-index: 1; } }
+    z-index: 1;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); } }
 
 @media screen and (min-width: 686px) and (max-width: 862px) {
   .gallery__item:nth-of-type(3n + 1) {
@@ -366,7 +368,8 @@ img {
     width: fit-content;
     transform: scale(1.5);
     position: center;
-    z-index: 1; } }
+    z-index: 1;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); } }
 
 @media screen and (min-width: 863px) and (max-width: 1038px) {
   .gallery__item:nth-of-type(4n + 1) {
