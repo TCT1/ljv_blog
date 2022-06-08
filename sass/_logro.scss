@@ -29,7 +29,7 @@
         border-radius: 7px;
         text-align: center;
         transition: all 0.25s;
-        background-color: antiquewhite;
+        background-color: $color-fondos;
     }
 
     &__seccion--mod{
@@ -41,12 +41,22 @@
         height: 450px;
         border-radius: 7px;
         transition: all 0.25s;
-        background-color: antiquewhite;
+        background-color: $color-secundario;
         @extend .better-articles
     }
 
     &__titulo{
         font-size: 35px;
+    }
+
+    &__presentacion{
+        margin-bottom: 15px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    &__descripcion{
+        padding: 5px;
     }
 
     &__fecha{
@@ -74,6 +84,6 @@
 
 .better-articles{
     text-align: center;
-    border:rgb(255, 0, 0) dashed 4px;
+    border:$color-principal dashed 4px;
     font-weight: 600;
 }

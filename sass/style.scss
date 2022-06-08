@@ -32,7 +32,7 @@ body{
 
 /* Pagina Principal */
 .main__portada{
-    background-color: antiquewhite;
+    background-color: $color-fondos;
 }
 
 p{
@@ -69,11 +69,34 @@ p{
     }
 }
 
+/* Nav bar */
+.nav-link.active{
+    font-weight: 700;
+}
+
+.navbar-toggler-icon{
+    background-color: $color-fondos;
+}
+
+.navbar-toggler{
+    background-color: $color-fondos;
+}
+
+.navbar-brand:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease-in-out;
+}
+
 /* Sobre Mí */
 .sobremi{
+    &__grupo{
+        display: flex;
+        flex-direction: row;
+    }
+
     &__titulo{
         font-size: 80px;
-        margin-bottom: 35px;
+        margin-bottom: 10px;
         padding: 5px;
         display: flex;
         text-align: center;
@@ -84,26 +107,30 @@ p{
     &__presentacion{
         margin-bottom: 15px;
         font-size: 25px;
+        text-align: center;
     }
 
     &__link{
-        color: #00eaff;
+        color: $color-prinicpalLinkBotones;
         font-weight: 900;
     }
 
     &__seccion{
+        margin: 15px;
         color: rgb(255, 255, 255);
         border-radius: 7px;
         border: solid 3px rgb(137, 137, 137);
         margin-bottom: 10px;
-        padding: 10px;
+        padding: 15px;
+        width: 50%;
     }
 
     &__subtitulo{
         font-size: 30px;
+        text-align: center;
 
         &__descripcion{
-            color: #00eaff;
+            color: $color-prinicpalLinkBotones;
             font-weight: 900;
         }
     }
@@ -164,7 +191,6 @@ textarea{
 }
 
 /* galeria */
-
 .titulo__galeria{
     font-size: 80px;
     margin-bottom: 35px;
@@ -359,10 +385,10 @@ img{
     }
 }
 
-
+/* Sobre mi */
 @media (min-width:280px) and (max-width:480px){
     p{
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .presentacion__sobremi{
@@ -379,6 +405,29 @@ img{
 
     .subtitulo__sobremi{
         font-size: 20px;
+    }
+}
+
+@media (max-width:1200px){
+    .sobremi__grupo{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sobremi__seccion{
+        width: 75%;
+    }
+}
+
+@media (max-width:800px){
+    .sobremi__seccion{
+        width: 90%;
+    }
+}
+
+@media (max-width:650px){
+    .sobremi__seccion{
+        width: 100%;
     }
 }
 
@@ -411,6 +460,10 @@ img{
 @media (max-width:464px) {
     .articulos__titulo{
         font-size: 30px;
+    }
+
+    .articulos__presentacion{
+        font-size: 20px;
     }
 }
 
@@ -460,23 +513,12 @@ img{
 }
 
 /* portafolio */
-@media(max-width:830px){
-    .portafolio__seccion{
-        width: 750px;
-        height: 300px;
-    }
-
-    .portafolio__img{
-        width: 100%;
-        height: auto;
-    }
-}
-
-@media(max-width:740px){
+@media(max-width:860px){
     .portafolio__seccion{
         flex-direction: column;
         width: 350px;
-        height: 550px;
+        height: 400px;
+        justify-content:start;
     }
 
     .portafolio__img{
