@@ -53,6 +53,9 @@
         margin-bottom: 15px;
         font-size: 25px;
         text-align: center;
+        flex-wrap: wrap;
+        padding-left: 25%;
+        padding-right: 25%;
     }
 
     &__descripcion{
@@ -84,6 +87,5 @@
 
 .better-articles{
     text-align: center;
-    border:$color-principal dashed 4px;
     font-weight: 600;
 }

@@ -1,5 +1,4 @@
         <h2 class="eventosEspeciales__mainTitulo">Eventos especiales</h2>
-
         <section class="eventosEspeciales">
             <div class="eventosEspeciales__seccion">
                 <img class="eventosEspeciales__img" src="https://img.freepik.com/vector-gratis/sombrero-fiesta-diseno-plano-sombrero-cono-colorido-fiesta-celebracion-cumpleanos-vacaciones_349999-427.jpg?w=2000">
