@@ -50,10 +50,11 @@
 
     <!-- Inicia formulario de contacto -->
     <main>
-        <form method="get" class="form">
+        <form action="form.php" method="POST" class="form">
             <h1 class="form__titulo">Contactame</h1>
-            <input class="form__item" placeholder="Nombre" name="nombre" required/>
-            <textarea class="form__item" name="messageBox" placeholder="Escriba aquí su mensaje" required></textarea>
+            <input class="form__item" placeholder="nombre" name="nombre" required/>
+            <input class="form__item" placeholder="example@mail" name="correo" type="email" required/>
+            <textarea class="form__item" name="mensaje" placeholder="Escriba aquí su mensaje" required></textarea>
             <input class="form__button" type="submit" value="Enviar"/>
             <input class="form__button" type="reset" value="Limpiar"/>
         </form>
