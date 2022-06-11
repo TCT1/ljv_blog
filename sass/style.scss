@@ -277,6 +277,32 @@ img{
     }
 }
 
+@media (min-width:280px) and (max-width:912px){
+    .galeria__main:active{
+        .gallery__item{
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+        }
+
+        .gallery__holdClickImg{
+            display: none;
+        }
+    }
+
+    .gallery__item:hover{
+        filter: brightness(1);
+        clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%, 0% 0%);
+        height: fit-content;
+        width: fit-content;
+        transform: scale(0.6);
+        position: center;
+        z-index: 1;
+
+        .gallery__holdClickImg{
+            display: none;
+        }
+    }
+}
+
 @media screen and (min-width: 270px) and (max-width: 504px){
     .gallery__item:first-of-type{
         grid-column:  1/ span 2;
@@ -285,73 +311,17 @@ img{
     .gallery{
         grid-auto-rows: 283px;
     }
-
-    .galeria__main:active{
-        .gallery__item{
-            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-        }
-    }
-
-    .gallery__item:hover{
-        filter: brightness(1);
-        clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%, 0% 0%);
-        height: fit-content;
-        width: fit-content;
-        transform: scale(0.6);
-        position: center;
-        z-index: 1;
-
-        .gallery__holdClickImg{
-            display: none;
-        }
-    }
 }
 
 @media screen and (min-width: 505px) and (max-width: 685px){
     .gallery__item:nth-of-type(odd){
         grid-column: 2 / span 2;
     }
-
-    .galeria__main:active{
-        .gallery__item{
-            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-        }
-    }
-
-    .gallery__item:hover{
-        filter: brightness(1);
-        clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%, 0% 0%);
-        height: fit-content;
-        width: fit-content;
-        transform: scale(0.6);
-        position: center;
-        z-index: 1;
-
-        .gallery__holdClickImg{
-            display: none;
-        }
-    }
 }
 
 @media screen and (min-width: 686px) and (max-width: 862px){
     .gallery__item:nth-of-type(3n + 1){
         grid-column: 2 / span 2;
-    }
-
-    .galeria__main:active{
-        .gallery__item{
-            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-        }
-    }
-
-    .gallery__item:hover{
-        filter: brightness(1);
-        clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%, 0% 0%);
-        height: fit-content;
-        width: fit-content;
-        transform: scale(0.8);
-        position: center;
-        z-index: 1;
     }
 }
 
