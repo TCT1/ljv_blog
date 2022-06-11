@@ -226,13 +226,16 @@ img{
 
     &__item{
         clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-        transition: .3s ease-in-out;
+        transition: .2s ease-in-out;
         grid-column: span 2;
         height: 283px;
 
         &:hover{
             filter: brightness(0.8);
             transform: scale(1.05);
+            .gallery__img{
+                display: none;
+            }
         }
 
         &:active{
@@ -240,9 +243,16 @@ img{
             clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%, 0% 0%);
             height: fit-content;
             width: fit-content;
-            transform: scale(1.5);
+            transform: scale(1.3);
             position: center;
             z-index: 1;
+            .gallery__holdClickImg{
+                display: none;
+            }
+
+            .gallery__img{
+                display: flex;
+            }
         }
 
         &:first-of-type{
@@ -278,6 +288,10 @@ img{
         .gallery__item{
             clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
         }
+
+        .gallery__holdClickImg{
+            display: none;
+        }
     }
 
     .gallery__item:hover{
@@ -285,9 +299,13 @@ img{
         clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%, 0% 0%);
         height: fit-content;
         width: fit-content;
-        transform: scale(0.9);
+        transform: scale(0.6);
         position: center;
         z-index: 1;
+
+        .gallery__holdClickImg{
+            display: none;
+        }
     }
 }
 
@@ -300,6 +318,10 @@ img{
         .gallery__item{
             clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
         }
+
+        .gallery__holdClickImg{
+            display: none;
+        }
     }
 
     .gallery__item:hover{
@@ -307,9 +329,13 @@ img{
         clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%, 0% 0%);
         height: fit-content;
         width: fit-content;
-        transform: scale(0.8);
+        transform: scale(0.6);
         position: center;
         z-index: 1;
+
+        .gallery__holdClickImg{
+            display: none;
+        }
     }
 }
 
