@@ -300,6 +300,10 @@ img{
         transform: scale(0.6);
         position: center;
         z-index: 1;
+
+        .gallery__holdClickImg{
+            display: none;
+        }
     }
 }
 
@@ -322,6 +326,10 @@ img{
         transform: scale(0.6);
         position: center;
         z-index: 1;
+
+        .gallery__holdClickImg{
+            display: none;
+        }
     }
 }
 
