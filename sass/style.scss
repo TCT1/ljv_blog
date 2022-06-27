@@ -217,6 +217,7 @@ img{
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+    margin-bottom: 170px;
 
     display: grid;
     grid-template-columns: repeat(auto-fit, 133px);
@@ -378,19 +379,6 @@ img{
         &__titulo{
             font-size: 25px;
         }
-    }
-}
-
-/* Footer */
-@media (max-width:549px){
-    .footer__redes{
-        width: 100%;
-    }
-}
-
-@media screen and (max-width:250px){
-    .footer__redes{
-        width: 100%;
     }
 }
 

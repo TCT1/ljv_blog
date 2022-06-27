@@ -1,21 +1,18 @@
 /* footer */
 .footer{
-    justify-content:center;
-    align-items:center;
     transition: all .3s ease;
     margin-top: auto;
 
     &__redes{
         display:flex;
         margin-top: 120px;
-        width: 100%;
         height: 75px;
         background: $color-principal;
         justify-content: center;
         align-items: center;
 
         .fab{
-            margin: 0 15px;
+            margin: 0 10px;
             width: 40px;
             height: 40px;
             text-align: center;
@@ -25,7 +22,6 @@
             color: $color-principal;
             cursor: pointer;
             box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
-            transition: all .3s ease;
         }
 
         .icon1{
